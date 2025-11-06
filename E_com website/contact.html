@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+   crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <title>E-com website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+       <header class="section-navbar">
+     <script src="navbar.js"></script>
+    </header>
+
+     <!-- start contact section -->
+
+       <div class="section-contact">
+        <div class="container">
+        <h2 class="section-common-heading">Contact Us</h2>
+        <p class="section-common-subheading">
+        Get in touch with us. We are always here to help you.
+        </p>
+        </div>
+        
+       </div>
+       <!-- end contact section -->
+
+       <div class="container grid grid-two--cols">
+        <div class="contact-content">
+          <form action="https://formspree.io/f/xyyqbjej" method="POST">
+            <div class="grid grid-two--cols mb-3">
+              <div>
+                <label for="username">username</label>
+                <input type="text"
+                 name="username" 
+                 id="username"
+                 required
+                 autocomplete="off"
+                 placeholder="enter your name">
+              </div>
+
+              <div>
+              <label for="email">enter your email</label>
+              <input type="email" name="email" id="email"
+              autocomplete="off"
+              required placeholder="abc@shagu.com"/>
+            </div>
+            </div>
+            
+
+            <div class="mb-3">
+              <label for="subject">subject</label>
+              <input type="text" name="subject" id="subject"
+              placeholder="your main title"/>
+            </div>
+
+            
+            <div class="mb-3">
+              <label for="message">message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="enter your message"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-submit">send message</button>
+            </div>
+
+          </form>
+        </div>
+
+        <div  style="padding: 2rem;" class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d850625.425060393!2d71.90471257285567!3d33.61164609825483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfd07891722f%3A0x6059515c3bdb02b6!2sIslamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1756579626953!5m2!1sen!2s"
+           width="100%" 
+           height="500px"
+            style="border:0;" 
+             allowfullscreen=""
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              >
+             </iframe>
+           </div>
+         </div>
+       </div>
+    
+       <!-- ========== Start footer Section ========== -->
+    <footer class="section-footer">
+        <script src="footer.js"></script>
+    </footer>
+    <!-- End Footer Section -->
+    
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
